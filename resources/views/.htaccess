@@ -1,0 +1,6 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile E:/Install/wamp64/www/map/ .htpasswd 
+<Files views>
+require valid-user
+</Files>
